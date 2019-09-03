@@ -27,7 +27,7 @@ export default class TodoModify extends React.Component{
 
   render() {
     return (
-      <div style={{background: "#000", display: "flex", justifyContent: "center"}}>
+      <div style={{display: "flex", justifyContent: "center"}}>
       <form onSubmit={this.handleSubmit}>
       <input  
       value={this.state.text}
